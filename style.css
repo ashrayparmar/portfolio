@@ -29,6 +29,8 @@ body {
   background-color: teal;
   color: white;
   padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .navigation .nav-pills {
@@ -113,15 +115,15 @@ body {
     background-color: teal;
     border-radius: 0.5rem;
     color: white;
-    display: inline-block;
     text-align: center;
+    display: inline;
 }
 
 .link-secondary1 {
     color: black;
     border-radius: 0.5rem;
     border: 1px solid teal;
-    display: iniline-block;
+    display: inline;
 }
 
 .p {
@@ -161,10 +163,11 @@ body {
 }
 
 footer {
-    padding 2rem 1rem;
+    padding 1rem 1rem;
     color: black;
     text-align: center;
     margin: auto;
+    
 }
 
 footer .link {

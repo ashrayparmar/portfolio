@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  background-color: #a7f3d0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+}
+
+.non-bullet {
+  list-style: none;
+  text-decoration: none;
+}
+
+.list-item-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+.navigation {
+  background-color: teal;
+  color: white;
+  padding: 1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+}
+.navigation .nav-brand {
+  font-weight: bold;
+  font-size: 150%;
+  color: white;
+}
+
+.navigation .link {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation .link-active {
+  color: white;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 1rem;
+  text-align: center;
+}
+
+.hero .heading {
+  color: teal;
+  padding-top: 0.5rem;
+}
+
+.img {
+  max-width: 200px;
+  margin: auto;
+  display: block;
+  padding-top: 0.5rem;
+
+}
+
+.link-design {
+  text-decoration: none;
+  font-weight: bold;
+  color: teal;
+}
+
+.code-design {
+    text-decoration: none;
+    font-weight: bold;
+    color: teal;
+  }
+  
+.margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2rem 2rem;
+}
+
+.link {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    text-align: center;
+}
+
+.link-secondary {
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid teal;
+    display: iniline-block;
+}
+
+.link-primary1 {
+    text-decoration: none;
+    background-color: teal;
+    border-radius: 0.5rem;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+
+.link-secondary1 {
+    color: black;
+    border-radius: 0.5rem;
+    border: 1px solid teal;
+    display: iniline-block;
+}
+
+.p {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+.hero p {
+  text-align: center;
+  font-size: large;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+
+.section {
+  padding: 0.5rem;
+}
+
+.section h1, h3
+ {
+  text-align: center;
+}
+
+.ow {
+  background-color: #88ddae;
+  padding: 1rem 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: black;
+}
+
+.section p {
+  text-align: center;
+}
+
+footer {
+    padding 2rem 1rem;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+footer .link {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.footer ul { 
+    padding-inline-start: 0px;
+}
+
+//blog page
+
+.img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    padding-top: 0.5rem;
+}
+
+//travel page
+
+
+.travel-showcase {
+    list-style: none;
+    width: 100%;
+
+}
+
+.travel-showcase li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+}
+
+.travel-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.travel-photo img {
+   
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.travel-photo img:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    opacity: 1;
+}
+
+.travel-md {
+    padding: 1rem 1rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.padding ul {
+    padding-inline-start: 0px;
+}
+

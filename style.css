@@ -70,6 +70,14 @@ body {
 
 }
 
+.travel-img {
+  max-width: 350px;
+  margin: auto;
+  display: block;
+  padding-top: 0.5rem;
+
+}
+
 .link-design {
   text-decoration: none;
   font-weight: bold;
@@ -102,6 +110,14 @@ body {
     color: white;
     display: block;
     text-align: center;
+    border: 2px solid teal;
+}
+
+.link-primary:hover {
+  background-color: #88ddae;
+  color: black;
+  font-weight: bold;
+  border: 2px solid teal;
 }
 
 .link-secondary {
@@ -118,13 +134,20 @@ body {
     color: white;
     text-align: center;
     display: inline;
+    border: 2px solid teal;
 }
 
 .link-secondary1 {
     color: black;
     border-radius: 0.5rem;
-    border: 1px solid teal;
+    border: 2px solid teal;
     display: inline;
+}
+
+.link-secondary1:hover {
+  background-color: teal;
+  color: white;
+  border: 2px solid teal;
 }
 
 .p {
@@ -167,8 +190,11 @@ footer {
     padding 1rem 1rem;
     color: black;
     text-align: center;
-    margin: auto;
-    
+    margin: auto;    
+}
+
+footer ul {
+  padding-inline-start: 0px;
 }
 
 footer .link {
